@@ -1,0 +1,22 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+
+\begin{document}
+\begin{doublespacing}
+L'orchestration est l'art d'écrire de la musique pour un orchestre.
+Chaque instrument possède une large plage de fréquences et d'intensités. On entrevoit l'immense diversité sonore qu'offre un orchestre symphonique et la complexité de la discipline que l'on réfère souvent comme l'\textit{art de composer les timbres}.
+
+Jusqu'au début du XXe siècle, l'orchestration était fréquemment pratiquée comme la projection d'une œuvre pour piano sur un orchestre.
+Le timbre vient alors structurer l'évolution mélodique, rythmique et harmonique de la pièce.
+Note objectif est de construire un système qui génère automatiquement une partition pour orchestre à partir d'une partition pour piano.
+
+Il paraît ambitieux de vouloir composer le timbre, souvent caractérisé comme l'évolution jointe de plusieurs descripteurs spectraux, à partir d'une information purement symbolique.
+Nous faisons l'hypothèse que l'observation d'un grand nombre d'exemples de projections orchestrales réalisées par des compositeurs de renom, permettrait l'inférence de règles symboliques (probablement très nombreuses) qui encapsuleraient la connaissance timbrale des compositeurs.
+
+Ainsi, nous proposons un système qui repose sur l'inférence d'un modèle probabiliste par apprentissage statistique sur une base de données.
+Nous présentons plusieurs modèles inspirés des \textit{conditional Restricted Boltzmann Machine}, leur entraînement sur un ensemble de partition pour piano et leur orchestration, un cadre d'évaluation quantitatif et une implémentation temps-réel des modèles entraînés.
+
+\end{doublespacing}
+\end{document}

@@ -5,3 +5,5 @@
 *.gz
 *.cb2
 *.out
+*.bbl
+*.blg
